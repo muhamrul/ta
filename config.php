@@ -11,7 +11,7 @@ if(isset($_SESSION['login'])){
 	$i = $_SESSION['login'];
 }
 
-$sqlIdSekarang = "SELECT * FROM karyawan WHERE id_user = $i";
+$sqlIdSekarang = "SELECT * FROM karyawan WHERE id_user = $i"."";
 $resultIdSekarang = mysqli_query($mysqli, $sqlIdSekarang);
 $rowIdSekarang = mysqli_fetch_array($resultIdSekarang);
 
