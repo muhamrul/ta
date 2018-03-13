@@ -19,7 +19,7 @@ $rowIdSekarang = mysqli_fetch_array($resultIdSekarang);
 			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
 			  <h4 class="modal-title">Data Pengguna</h4>
 			</div>
-			<div class="modal-body">
+			<div class="modal-body" id="modalbody">
 			  
 			</div>
 			<!--<div class="modal-footer">
